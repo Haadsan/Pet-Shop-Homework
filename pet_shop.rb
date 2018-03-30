@@ -45,4 +45,11 @@ end
 
 def pet_by_name(pet_shop, name)
 
+for pet in pet_shop[:pets]
+   if name == pet[:name]
+     result.push(pet)
+   end
+end
+
+return results
 end
