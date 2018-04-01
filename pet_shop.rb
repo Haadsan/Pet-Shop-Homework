@@ -41,22 +41,39 @@ def pets_by_breed(pet_shop, breed )
   # return array with all the pets of that breed
   return results
 end
+
 #
+
+
+def find_pets_by_breed(pet_shop, breed)
+results = []
+  for pet in pet_shop[:pets]
+    if breed != pet[:breed]
+      results.push(pet)
+    end
+  end
+
+  return results
+end
+
+# def find_pet_by_name(pet_shop, name)
+# return pet_shop("Arthur")[:name]
 #
+# end
 
 
 
-# done
-def add_pet_to_stock(pet_shop, stock)
-  return pet_shop[:pets].push("Bors the Younger")
-end
-
-# done
-def customer_pet_count(customer)
-  return customer[:pets].count
-end
-
-# done
-def add_pet_to_customer(customers, new_pet)
-  return customers[:pets].push(new_pet)
-end
+# # done
+# def add_pet_to_stock(pet_shop, stock)
+#   return pet_shop[:pets].push("Bors the Younger")
+# end
+#
+# # done
+# def customer_pet_count(customer)
+#   return customer[:pets].count
+# end
+#
+# # done
+# def add_pet_to_customer(customers, new_pet)
+#   return customers[:pets].push(new_pet)
+# end
