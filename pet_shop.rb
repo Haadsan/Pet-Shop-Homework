@@ -53,3 +53,19 @@ end
 
 return results
 end
+
+
+
+
+
+
+
+
+
+
+
+
+
+# def add_pet_to_stock(pet_shop, stock)
+#   pet_shop[:pets].push("Bors the Younger")
+# end
