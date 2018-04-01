@@ -80,18 +80,18 @@ end
 
 
 # # done
-# def add_pet_to_stock(pet_shop, stock)
-#   return pet_shop[:pets].push("Bors the Younger")
-# end
+def add_pet_to_stock(pet_shop, stock)
+  return pet_shop[:pets].push("Bors the Younger")
+end
 
 
 #
 # # done
-# def customer_pet_count(customer)
-#   return customer[:pets].count
-# end
+def customer_pet_count(customer)
+  return customer[:pets].count
+end
 #
 # # done
-# def add_pet_to_customer(customers, new_pet)
-#   return customers[:pets].push(new_pet)
-# end
+def add_pet_to_customer(customers, new_pet)
+  return customers[:pets].push(new_pet)
+end
