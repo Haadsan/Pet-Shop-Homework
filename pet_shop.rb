@@ -56,18 +56,7 @@ results = []
   return results
 end
 
-# # def find_pet_by_name(array, name)
-# def find_pet_by_name(pet_shop, name)
-#
-#   # for pet in array[:pets]
-# for pet in pet_shop[:pets]
-#   # if name is equal to pet name
-#    if name == pet[:name]
-#      return pet
-#
-#    end
-# end
-# end
+
 
 
 
@@ -85,8 +74,9 @@ def find_pet_by_name(pet_shop, name)
 
 end
 
-# def remove_pet_by_name(pet_shop, name)
-#
+def remove_pet_by_name(pet_shop, name)
+ pet_shop.delete-at(3)
+end
 
 
 # # done
