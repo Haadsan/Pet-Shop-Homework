@@ -56,37 +56,45 @@ results = []
   return results
 end
 
-# def find_pet_by_name(array, name)
-def find_pet_by_name(pet_shop, name)
-  # for pet in array[:pets]
-for pet in pet_shop[:pets]
-  # if name is equal to pet name
-   if name == pet[:name]
-     return pet
-   end
-end
-end
+# # def find_pet_by_name(array, name)
+# def find_pet_by_name(pet_shop, name)
+#
+#   # for pet in array[:pets]
+# for pet in pet_shop[:pets]
+#   # if name is equal to pet name
+#    if name == pet[:name]
+#      return pet
+#
+#    end
+# end
+# end
 
 
 
 def find_pet_by_name(pet_shop, name)
   # for pet in array[:pets]
-  results = [0]
-for pet in pet_shop[:pets]
+
+   for pet in pet_shop[:pets]
   # if name is equal to pet name
-   if name == pet[:name]
-     return pet
+     if name == pet[:name]
+      return pet
    end
-end
-end
+ end
+ else return nil
 
 
+end
+
+# def remove_pet_by_name(pet_shop, name)
+#
 
 
 # # done
 # def add_pet_to_stock(pet_shop, stock)
 #   return pet_shop[:pets].push("Bors the Younger")
 # end
+
+
 #
 # # done
 # def customer_pet_count(customer)
